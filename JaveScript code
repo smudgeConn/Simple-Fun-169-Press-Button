@@ -1,0 +1,7 @@
+function pressButton(n) {
+  let total = n;
+  for (let i = 1; i < n; i ++) {
+    total += ((n-i)*i)
+  }
+  return total;
+} 
